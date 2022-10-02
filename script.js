@@ -20,7 +20,7 @@ locationBtn.addEventListener("click", () =>{
     }
 });
 function requestApi(city){
-    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=87e81f3159daf99f543506ee422d126b`;
+//     api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&`;
     fetchData();
 }
 function onSuccess(position){
